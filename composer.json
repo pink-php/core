@@ -35,12 +35,12 @@
             "component"
         ],
         "expose": [
-            "vendor/twbs/bootstrap/dist/",
-            "vendor/components/jquery/",
-            "vendor/components/jqueryui/",
-            "vendor/components/font-awesome/",
-            "vendor/dimsemenov/magnific-popup/dist/",
-            "vendor/soerenkroell/composer-slick/slick/"
+            "/vendor/twbs/bootstrap/dist/",
+            "/vendor/components/jquery/",
+            "/vendor/components/jqueryui/",
+            "/vendor/components/font-awesome/",
+            "/vendor/dimsemenov/magnific-popup/dist/",
+            "/vendor/soerenkroell/composer-slick/slick/"
         ]
     }
 }
