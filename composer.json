@@ -1,11 +1,8 @@
 {
-    "name": "silverstripe/installer",
+    "name": "pink-php/core",
     "type": "silverstripe-recipe",
-    "description": "The SilverStripe Framework Installer",
+    "description": "The PinkPHP SilverStripe Exension",
     "require": {
-        "composer/composer": "dev-master",
-        "composer/installers": "~1.0",
-        "oomphinc/composer-installers-extender": "dev-master",
         "silverstripe/widgets": "dev-master",
         "silverstripe/blog": "dev-master",
         "silverstripe/googlesitemaps": "dev-master",
