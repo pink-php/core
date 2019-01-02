@@ -28,19 +28,5 @@
         "google/apiclient": "1.0.*@beta",
         "phpmailer/phpmailer": "~5.2",
         "tecnickcom/tcpdf": "dev-master"
-    },
-    "extra": {
-        "installer-types": [
-            "library",
-            "component"
-        ],
-        "expose": [
-            "../../vendor/twbs/bootstrap/dist/",
-            "../../vendor/components/jquery/",
-            "../../vendor/components/jqueryui/",
-            "../../vendor/components/font-awesome/",
-            "../../vendor/dimsemenov/magnific-popup/dist/",
-            "../../vendor/soerenkroell/composer-slick/slick/"
-        ]
     }
 }
