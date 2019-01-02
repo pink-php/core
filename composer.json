@@ -1,0 +1,49 @@
+{
+    "name": "silverstripe/installer",
+    "type": "silverstripe-recipe",
+    "description": "The SilverStripe Framework Installer",
+    "require": {
+        "composer/composer": "dev-master",
+        "composer/installers": "~1.0",
+        "oomphinc/composer-installers-extender": "dev-master",
+        "silverstripe/widgets": "dev-master",
+        "silverstripe/blog": "dev-master",
+        "silverstripe/googlesitemaps": "dev-master",
+        "colymba/gridfield-bulk-editing-tools": "dev-master",
+        "nglasl/silverstripe-misdirection": "dev-master",
+        "sheadawson/silverstripe-zenvalidator": "dev-master",
+        "sheadawson/silverstripe-dependentdropdownfield": "dev-master",
+        "unclecheese/display-logic": "dev-master",
+        "undefinedoffset/silverstripe-nocaptcha": "dev-master",
+        "undefinedoffset/sortablegridfield": "dev-master",
+        "silverstripe/userforms": "dev-master",
+        "silverware/countries": "dev-master",
+        "silverware/calendar": "dev-master",
+        "jonom/focuspoint": "dev-master",
+        "twbs/bootstrap": "4.*",
+        "components/font-awesome": "dev-master",
+        "components/jquery": "1.12-stable",
+        "components/jqueryui": "master",
+        "dimsemenov/magnific-popup": "dev-master",
+        "soerenkroell/composer-slick": "dev-master",
+        "drewm/mailchimp-api": "dev-master",
+        "facebook/graph-sdk": "5.*.*",
+        "google/apiclient": "1.0.*@beta",
+        "phpmailer/phpmailer": "~5.2",
+        "tecnickcom/tcpdf": "dev-master"
+    },
+    "extra": {
+        "installer-types": [
+            "library",
+            "component"
+        ],
+        "expose": [
+            "vendor/twbs/bootstrap/dist/",
+            "vendor/components/jquery/",
+            "vendor/components/jqueryui/",
+            "vendor/components/font-awesome/",
+            "vendor/dimsemenov/magnific-popup/dist/",
+            "vendor/soerenkroell/composer-slick/slick/"
+        ]
+    }
+}
